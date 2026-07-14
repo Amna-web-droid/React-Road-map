@@ -1,10 +1,10 @@
 import React from 'react'
-import ProfileCard from './components/01-components-jsx/ProfileCard'
+import SkillList from './components/02-props/SkillList'
 
 const App = () => {
   return (
-    <div>
-      <ProfileCard />
+    <div className="bg-gray-50 min-h-screen py-12">
+      <SkillList />
     </div>
   )
 }
