@@ -1,13 +1,10 @@
 import React from 'react';
-import TodoList from './components/06-lists-keys/TodoList';
+import FiverrGigForm from './components/07-forms-controlled-inputs/FiverrGigForm';
 
 const App = () => {
   return (
-    <div className="bg-gray-50 min-h-screen flex flex-col justify-center items-center py-12">
-      <h1 className="text-3xl font-extrabold text-gray-800 mb-2">
-        React Roadmap: Concept 06
-      </h1>
-      <TodoList />
+    <div className="bg-gray-50 min-h-screen py-10">
+      <FiverrGigForm />
     </div>
   );
 };
