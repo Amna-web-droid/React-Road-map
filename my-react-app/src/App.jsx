@@ -1,10 +1,10 @@
 import React from 'react';
-import FiverrGigForm from './components/07-forms-controlled-inputs/FiverrGigForm';
+import TodoContainer from './components/08-lifting-state-up/TodoContainer';
 
 const App = () => {
   return (
-    <div className="bg-gray-50 min-h-screen py-10">
-      <FiverrGigForm />
+    <div className="bg-gray-50 min-h-screen flex flex-col justify-center items-center py-12">
+      <TodoContainer />
     </div>
   );
 };
