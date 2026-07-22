@@ -1,10 +1,10 @@
 import React from 'react';
-import TodoContainer from './components/08-lifting-state-up/TodoContainer';
+import DigitalWatch from './components/09-useeffect-side-effects/DigitalWatch';
 
 const App = () => {
   return (
-    <div className="bg-gray-50 min-h-screen flex flex-col justify-center items-center py-12">
-      <TodoContainer />
+    <div className="bg-gray-950 min-h-screen flex flex-col justify-center items-center py-12">
+      <DigitalWatch />
     </div>
   );
 };
