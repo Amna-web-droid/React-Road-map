@@ -1,10 +1,10 @@
 import React from 'react';
-import DigitalWatch from './components/09-useeffect-side-effects/DigitalWatch';
+import QuoteGenerator from './components/10-fetching-data-api/QuoteGenerator';
 
 const App = () => {
   return (
-    <div className="bg-gray-950 min-h-screen flex flex-col justify-center items-center py-12">
-      <DigitalWatch />
+    <div className="bg-gray-50 min-h-screen flex flex-col justify-center items-center py-12">
+      <QuoteGenerator />
     </div>
   );
 };
